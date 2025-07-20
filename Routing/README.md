@@ -1,12 +1,80 @@
-# React + Vite
+# React Router App 🛝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application demonstrating routing using **react-router-dom**, styled with **Tailwind CSS**, and enhanced with **Lucide Icons**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Multi-page routing with react-router-dom
+* Fully responsive using Tailwind CSS
+* Beautiful icons powered by Lucide
+* Vite for fast development
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+.
+├── node_modules  
+├── public  
+├── src  
+│   ├── components/  
+│   ├── pages/  
+│   └── App.jsx  
+├── .gitignore  
+├── eslint.config.js  
+├── index.html  
+├── package-lock.json  
+├── package.json  
+├── README.md  
+└── vite.config.js  
+```
+
+## 🛠️ Installation
+
+1. Clone the repository
+
+```bash
+git clone <your-repo-url>
+cd <your-project-folder>
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Start the development server
+
+```bash
+npm run dev
+```
+
+## 📦 Dependencies
+
+Install the required packages:
+
+```bash
+npm install react-router-dom
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+npm install lucide-react
+```
+
+
+## 📦 Lucide Icons
+
+Use Lucide icons like this:
+
+```js
+import { Menu } from 'lucide-react';
+
+<Menu size={28} className="text-black" />
+```
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 🙌 Author
+
+Made with ❤️ by Kartik Ramesh Varma
